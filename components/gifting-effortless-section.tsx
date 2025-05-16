@@ -40,7 +40,7 @@ export default function GiftingEffortlessSection() {
                 size="lg"
                 className="bg-[#F04A23] hover:bg-[#d83d18] text-white px-8"
               >
-                Contact Us
+                Contact us
               </Button>
             </div>
           </div>
