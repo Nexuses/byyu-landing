@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 export default function EventConferenceSection() {
   return (
-    <section className="w-full bg-[#A2A7AA]">
+    <section className="w-full bg-[#A2A7AA] py-20">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center gap-12">
           {/* Left content */}
@@ -30,7 +30,7 @@ export default function EventConferenceSection() {
                 src="https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/DSC_0038%201%20(3).png"
                 alt="Event and Conference Gifting Products"
                 fill
-                className="object-contain"
+                className="object-contain mt-[80px]"
                 priority
               />
             </div>

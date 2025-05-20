@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button"
 
 const ClientPartnerGifts = () => {
   return (
-    <div className="w-full bg-[#2F2F2F]">
+    <div className="w-full bg-[#2F2F2F] py-20">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center gap-12">
           {/* Gift Card Image */}

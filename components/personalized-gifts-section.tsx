@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button'
 
 export default function PersonalizedGiftsSection() {
   return (
-    <section className="w-full bg-[#A2A7AA]">
+    <section className="w-full bg-[#A2A7AA] py-20">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center gap-12">
           {/* Left content */}

@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button'
 
 export default function FestiveHampersSection() {
   return (
-    <section className="w-full bg-[#2A2A2A]">
+    <section className="w-full bg-[#2A2A2A] py-20">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center gap-12">
           {/* Left image */}
@@ -13,7 +13,7 @@ export default function FestiveHampersSection() {
                 src="https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Cystech/1579d996-5ad1-4c2b-9622-a556080d1694%201%20(1).png"
                 alt="Festive and holiday gift hampers with decorative items"
                 fill
-                className="object-contain"
+                className="object-contain mt-[80px]"
                 priority
               />
             </div>
