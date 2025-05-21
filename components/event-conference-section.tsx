@@ -7,7 +7,7 @@ export default function EventConferenceSection() {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center gap-12">
           {/* Left content */}
-          <div className="w-full md:w-1/2 space-y-6">
+          <div className="w-full md:w-1/2 space-y-6 flex flex-col items-center text-center md:items-start md:text-left">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900">
               Event & Conference Gifting
             </h2>

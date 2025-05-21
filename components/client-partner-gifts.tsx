@@ -20,7 +20,7 @@ const ClientPartnerGifts = () => {
           </div>
 
           {/* Content */}
-          <div className="w-full md:w-1/2 space-y-6 md:pl-8">
+          <div className="w-full md:w-1/2 space-y-6 md:pl-8 flex flex-col items-center text-center md:items-start md:text-left">
             <h2 className="text-4xl md:text-5xl font-bold text-white">
               Client & Partner Gifts
             </h2>

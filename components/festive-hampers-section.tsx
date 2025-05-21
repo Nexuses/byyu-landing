@@ -7,7 +7,7 @@ export default function FestiveHampersSection() {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center gap-12">
           {/* Left image */}
-          <div className="relative w-full md:w-1/2 aspect-[16/10] -ml-4 md:-ml-8">
+          <div className="relative w-full md:w-1/2 aspect-[16/10] -ml-4 md:-ml-8 order-2 md:order-1">
             <div className="relative w-full h-full">
               <Image
                 src="https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Cystech/1579d996-5ad1-4c2b-9622-a556080d1694%201%20(1).png"
@@ -20,7 +20,7 @@ export default function FestiveHampersSection() {
           </div>
 
           {/* Right content */}
-          <div className="w-full md:w-1/2 space-y-6">
+          <div className="w-full md:w-1/2 space-y-6 flex flex-col items-center text-center md:items-start md:text-left order-1 md:order-2">
             <h2 className="text-4xl md:text-5xl font-bold text-white">
               Festive & Holiday Hampers
             </h2>
