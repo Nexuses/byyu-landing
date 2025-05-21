@@ -16,6 +16,7 @@ import GiftingEffortlessSection from "@/components/gifting-effortless-section"
 export default function Home() {
   return (
     <main className="min-h-screen">
+      
       <NavBar />
       <HeroSection />
       <FeaturesSection />
