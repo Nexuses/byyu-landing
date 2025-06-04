@@ -12,18 +12,18 @@ export default function HeroSection() {
             <div className="grid grid-cols-1 md:grid-cols-2 items-center">
               <div className="p-4 md:p-16 space-y-8">
                 <h1 className="text-4xl md:text-5xl font-bold text-[#212529] text-center md:text-left">
-                  Corporate Gifting, Made Effortless.
+                  B2B Corporate Gifting Made Effortless
                 </h1>
                 <p className="text-gray-600 text-lg text-center md:text-left">
                   From handcrafted artisanal treats to premium lifestyle essentials, we offer a diverse range of high-quality gifts tailored to suit every occasion.
                 </p>
                 <div className="flex justify-center md:justify-start">
-                  <Button 
+                  <Button
                     asChild
                     size="lg"
                     className="bg-[#ee4623] hover:bg-[#d63d1d] text-white"
                   >
-                    <Link href="/shop">Shop Now</Link>
+                    <Link href="/corporate-gifts">Explore Gifts</Link>
                   </Button>
                 </div>
               </div>

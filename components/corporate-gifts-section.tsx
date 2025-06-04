@@ -1,29 +1,36 @@
 import Image from "next/image"
+import Link from "next/link"
 
 export default function CorporateGiftsSection() {
   const categories = [
     {
       title: "Flowers",
+      href: "/flowers",
       image: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/image%206.png",
     },
     {
       title: "Cakes",
+      href: "/cakes",
       image: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/Rectangle%2041.png",
     },
     {
       title: "Combo",
+      href: "/combo",
       image: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/image%20(1).png",
     },
     {
-      title: "Moleskine",
+      title: "Birthday",
+      href: "/birthday",
       image: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/image%2019.png",
     },
     {
       title: "Anniversary",
+      href: "/anniversary",
       image: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/image%20(2).png",
     },
     {
       title: "Explore Gifts",
+      href: "/explore-gifts",
       image: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/image%20(3).png",
     },
   ]
@@ -42,7 +49,7 @@ export default function CorporateGiftsSection() {
         
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
           {categories.map((category, index) => (
-            <div key={index} className="flex flex-col items-center">
+            <Link key={index} href={category.href} className="flex flex-col items-center">
               <div className="relative w-full aspect-square rounded-lg overflow-hidden mb-3 border border-gray-200">
                 <Image
                   src={category.image}
@@ -54,8 +61,13 @@ export default function CorporateGiftsSection() {
               <h3 className="text-gray-900 font-medium text-center">
                 {category.title}
               </h3>
-            </div>
+            </Link>
           ))}
+        </div>
+        <div className="text-center mt-8">
+          <Link href="/corporate-gifts" className="text-[#ee4623] font-semibold hover:underline">
+            View all corporate gifts
+          </Link>
         </div>
       </div>
     </section>
