@@ -12,13 +12,14 @@ import PersonalizedGiftsSection from "@/components/personalized-gifts-section"
 import FestiveHampersSection from "@/components/festive-hampers-section"
 import EventConferenceSection from "@/components/event-conference-section"
 import GiftingEffortlessSection from "@/components/gifting-effortless-section"
+import GiftShowcaseSection from "@/components/gift-showcase-section"
 
 export default function Home() {
   return (
     <main className="min-h-screen">
-      
       <NavBar />
       <HeroSection />
+      <GiftShowcaseSection />
       <FeaturesSection />
       <CategoriesSection />
       <CorporateGiftsSection />
