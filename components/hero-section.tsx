@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
+import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 
 export default function HeroSection() {
@@ -8,9 +9,14 @@ export default function HeroSection() {
       <div className="absolute top-0 left-0 right-0 h-[400px] bg-[#373743]" />
       <section className="relative pt-4 pb-4 md:pt-8 md:pb-8">
         <div className="container mx-auto px-2 md:px-6">
-          <div className="bg-[#EEDFCC] shadow-lg overflow-hidden">
+          <div className="bg-[#EEDFCC] shadow-lg overflow-hidden rounded-2xl">
             <div className="grid grid-cols-1 md:grid-cols-2 items-center">
-              <div className="p-4 md:p-16 space-y-8">
+              <motion.div 
+                initial={{ opacity: 0, x: -50 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.6 }}
+                className="p-4 md:p-16 space-y-8"
+              >
                 <h1 className="text-4xl md:text-5xl font-bold text-[#212529] text-center md:text-left">
                   Corporate Gifting, Made Effortless.
                 </h1>
@@ -21,21 +27,26 @@ export default function HeroSection() {
                   <Button 
                     asChild
                     size="lg"
-                    className="bg-[#ee4623] hover:bg-[#d63d1d] text-white"
+                    className="bg-[#ee4623] hover:bg-[#d63d1d] text-white transform hover:scale-105 transition-transform duration-300"
                   >
                     <Link href="/shop">Shop Now</Link>
                   </Button>
                 </div>
-              </div>
-              <div className="relative h-[350px] md:h-[500px] w-full mb-[-15px]">
+              </motion.div>
+              <motion.div 
+                initial={{ opacity: 0, scale: 0.8 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.6, delay: 0.2 }}
+                className="relative h-[350px] md:h-[500px] w-full mb-[-15px]"
+              >
                 <Image 
                   src="https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/e431cef0-37da-47e3-819f-dcfe30ad4a56%201%20(1)%20(1)%201.png"
                   alt="Corporate Gift Collection" 
                   fill 
-                  className="object-contain"
+                  className="object-contain transform hover:scale-105 transition-transform duration-300"
                   priority
                 />
-              </div>
+              </motion.div>
             </div>
           </div>
         </div>
