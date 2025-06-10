@@ -7,11 +7,11 @@ import FeaturesSection from "@/components/features-section"
 import CategoriesSection from "@/components/categories-section"
 import CorporateGiftsSection from "@/components/corporate-gifts-section"
 import OurClientsSection from "@/components/our-clients-section"
-import ClientPartnerGifts from "@/components/client-partner-gifts"
-import PersonalizedGiftsSection from "@/components/personalized-gifts-section"
-import FestiveHampersSection from "@/components/festive-hampers-section"
-import EventConferenceSection from "@/components/event-conference-section"
+import Testimonials from "@/components/testimonials"
 import GiftingEffortlessSection from "@/components/gifting-effortless-section"
+import CorporateGiftsCategories from "@/components/corporate-gifts-categories"
+import IndustryLeaders from "@/components/industry-leaders"
+import Forms from "@/components/forms"
 
 export default function Home() {
   return (
@@ -22,10 +22,10 @@ export default function Home() {
       <CategoriesSection />
       <CorporateGiftsSection />
       <OurClientsSection />
-      <ClientPartnerGifts />
-      <PersonalizedGiftsSection />
-      <FestiveHampersSection />
-      <EventConferenceSection />
+      <Testimonials />
+      <CorporateGiftsCategories />
+      <IndustryLeaders />
+      <Forms />
       <GiftingEffortlessSection />
     </main>
   )

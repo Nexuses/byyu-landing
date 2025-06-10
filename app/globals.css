@@ -74,3 +74,14 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Add margin above the Swiper pagination dots for the client slider */
+.client-swiper .swiper-pagination {
+  margin-top: 64px;
+  position: static;
+  text-align: center;
+}
+
+.client-swiper .swiper-pagination-bullet {
+  background: #000 !important;
+}

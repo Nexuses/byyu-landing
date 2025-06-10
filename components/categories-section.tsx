@@ -2,44 +2,24 @@ import React from 'react';
 
 const categories = [
   {
-    name: "Hampers",
-    image: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/img.png",
+    name: "Luxury Corporate Hamper",
+    image: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/ramadhan-gift-hampers-moslem-theme-celebrete-holy-bake-snack-nastar-bakery-cookies-pud%201.png",
   },
   {
-    name: "Flowers",
-    image: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/img%20(1).png",
+    name: "Wellness & Relaxation Hamper",
+    image: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/concept-gift-with-basket-cosmetics-white-table%201.png",
   },
   {
-    name: "Chocolates",
-    image: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/img%20(2).png",
+    name: "Gourmet Food Hamper",
+    image: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/different-products-wooden-table-kitchen-healthy-food-balanced-diet%201.png",
   },
   {
-    name: "Cakes",
-    image: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/img%20(3).png",
+    name: "Eco-Friendly Hamper",
+    image: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/eco-friendly-recyclable-tableware-isolated%20(1)%201.png",
   },
   {
-    name: "Plants",
-    image: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/img%20(4).png",
-  },
-  {
-    name: "Perfumes",
-    image: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/img%20(5).png",
-  },
-  {
-    name: "Kid",
-    image: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/img%20(6).png",
-  },
-  {
-    name: "Dry Fruits",
-    image: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/img%20(7).png",
-  },
-  {
-    name: "Combos",
-    image: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/img%20(8).png",
-  },
-  {
-    name: "Candles",
-    image: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/img%20(9).png",
+    name: "Festive Hamper",
+    image: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/concept-gift-with-christmas-basket-white-wooden-table%201.png",
   }
 ];
 
@@ -51,7 +31,7 @@ export default function CategoriesSection() {
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
           {categories.map((category, index) => (
             <div key={index} className="group cursor-pointer">
-              <div className="aspect-square rounded-xl overflow-hidden bg-gray-100 mb-3">
+              <div className="w-[250px] h-[220px] rounded-xl overflow-hidden bg-gray-100 mb-3">
                 <img
                   src={category.image}
                   alt={category.name}
