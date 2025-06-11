@@ -5,14 +5,12 @@ const testimonials = [
     text: `We sincerely thank the byyu team for their exceptional service during the Movado Distributor Summit 2025. From custom gift bags to premium hoodies and watch trays, every detail was executed with precision and elegance. Our global guests were impressed, and the curated gifting experience elevated the event. byyu proved to be a trusted partner in delivering excellence.`,
     name: 'Tusha Singh',
     title: 'Marketing Executive',
-    avatar: 'https://randomuser.me/api/portraits/women/44.jpg',
     rating: 5,
   },
   {
     text: `byyu was instrumental during our rebranding providing top-quality products on time with excellent service. The team was incredibly helpful and went above and beyond throughout the process.`,
     name: 'Vishal Deshmukh',
     title: 'Operations Executive',
-    avatar: 'https://randomuser.me/api/portraits/men/32.jpg',
     rating: 5,
   },
 ]
@@ -35,13 +33,12 @@ const Testimonials = () => {
             >
               <p className="text-gray-900 text-sm md:text-base mb-6">{t.text}</p>
               <div className="flex items-center gap-3 mt-auto">
-                <Image
-                  src={t.avatar}
-                  alt={t.name}
-                  width={40}
-                  height={40}
-                  className="rounded-full object-cover"
-                />
+                <div className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center">
+                  <svg className="w-6 h-6 text-gray-600" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 12C14.7614 12 17 9.76142 17 7C17 4.23858 14.7614 2 12 2C9.23858 2 7 4.23858 7 7C7 9.76142 9.23858 12 12 12Z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                    <path d="M20.5899 22C20.5899 18.13 16.7399 15 11.9999 15C7.25991 15 3.40991 18.13 3.40991 22" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
+                </div>
                 <div className="flex flex-col">
                   <span className="font-semibold text-sm text-gray-900">{t.name}</span>
                   <span className="text-xs text-gray-500">{t.title}</span>

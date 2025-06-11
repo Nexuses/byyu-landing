@@ -3,27 +3,27 @@ import Image from "next/image"
 const industryLeaders = [
   {
     name: "talabat",
-    logo: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/Talabat_logo.png",
+    logo: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/talabat.png",
     alt: "Talabat logo"
   },
   {
     name: "deliveroo",
-    logo: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/Deliveroo.png",
+    logo: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/deliveroo.png",
     alt: "Deliveroo logo"
   },
   {
     name: "flowwow",
-    logo: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/flowwow.png",
+    logo: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/Flowwow.png",
     alt: "Flowwow logo"
   },
   {
     name: "noon food",
-    logo: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/noon-food.png",
+    logo: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/noonfood.png",
     alt: "Noon Food logo"
   },
   {
     name: "nownow",
-    logo: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/Nownow%201.png",
+    logo: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/nownow.png",
     alt: "NowNow logo"
   }
 ]
@@ -41,7 +41,7 @@ export default function IndustryLeaders() {
         <div className="flex flex-wrap justify-center items-center gap-10 md:gap-16">
           {industryLeaders.map((leader) => (
             <div key={leader.name} className="flex items-center justify-center">
-              <Image src={leader.logo} alt={leader.alt} width={140} height={60} className="object-contain h-16 w-auto" />
+              <Image src={leader.logo} alt={leader.alt} width={240} height={100} className="object-contain h-32 w-auto" />
             </div>
           ))}
         </div>
