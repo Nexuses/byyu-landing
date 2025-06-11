@@ -12,12 +12,14 @@ import GiftingEffortlessSection from "@/components/gifting-effortless-section"
 import CorporateGiftsCategories from "@/components/corporate-gifts-categories"
 import IndustryLeaders from "@/components/industry-leaders"
 import Forms from "@/components/forms"
+import GiftShowcaseSection from "@/components/gift-showcase-section"
 
 export default function Home() {
   return (
     <main className="min-h-screen">
       <NavBar />
       <HeroSection />
+      <GiftShowcaseSection />
       <FeaturesSection />
       <CategoriesSection />
       <CorporateGiftsSection />
