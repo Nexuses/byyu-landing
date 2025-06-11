@@ -31,7 +31,7 @@ export default function HeroSection() {
                     size="lg"
                     className="bg-[#ee4623] hover:bg-[#d63d1d] text-white transform hover:scale-105 transition-transform duration-300"
                   >
-                    <Link href="/shop">Shop Now</Link>
+                    <Link href="https://www.byyu.com/">Shop Now</Link>
                   </Button>
                 </div>
               </motion.div>

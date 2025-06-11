@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function FeaturesSection() {
   return (
     <section className="py-16 bg-white">
@@ -9,9 +11,7 @@ export default function FeaturesSection() {
           <p className="text-gray-600 mb-8 text-lg">
             At byyu, we understand that corporate gifting is more than just a gesture—it's an opportunity to build relationships, express gratitude, and leave a lasting impression. Whether you're appreciating employees, delighting clients, or celebrating milestones, our curated selection of premium gifts ensures every moment is unforgettable.
           </p>
-          <button className="bg-[#ee4623] text-white px-8 py-3 rounded-full font-semibold hover:bg-[#d63d1d] transition-colors">
-            Shop now
-          </button>
+          <Link href="https://www.byyu.com/" className="bg-[#ee4623] text-white px-8 py-3 rounded-full font-semibold hover:bg-[#d63d1d] transition-colors">Shop now</Link>
         </div>
       </div>
     </section>
