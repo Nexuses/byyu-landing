@@ -28,7 +28,7 @@ const categories = [
 
 export default function CategoriesSection() {
   return (
-    <section className="py-24 bg-gradient-to-b from-white to-gray-50">
+    <section className="py-24 bg-white">
       <div className="container px-4 mx-auto">
         <motion.h2 
           initial={{ opacity: 0, y: 20 }}
@@ -41,7 +41,7 @@ export default function CategoriesSection() {
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
           {categories.map((category, index) => (
             <motion.div key={index} className="group cursor-pointer">
-              <div className="w-[250px] h-[220px] rounded-xl overflow-hidden bg-gray-100 mb-3">
+              <div className="w-[215px] h-[190px] lg:w-[250px] lg:h-[220px] rounded-xl overflow-hidden bg-gray-100 mb-3">
                 <img
                   src={category.image}
                   alt={category.name}

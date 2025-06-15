@@ -69,8 +69,13 @@ const OurClientsSection = () => {
         >
           <SwiperSlide>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 items-center justify-items-center">
-              {firstSlideClients.map((client) => (
-                <div key={client.name} className="w-full max-w-[300px] h-32 relative">
+              {firstSlideClients.map((client, index) => (
+                <div 
+                  key={client.name} 
+                  className={`w-full max-w-[300px] h-32 relative ${
+                    index === 4 ? 'col-span-2 md:col-span-1 lg:col-span-1' : ''
+                  }`}
+                >
                   <Image
                     src={client.logo}
                     alt={`${client.name} logo`}

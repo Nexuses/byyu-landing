@@ -9,9 +9,9 @@ export default function HeroSection() {
   return (
     <div className="relative">
       <div className="absolute top-0 left-0 right-0 h-[400px] bg-[#373743]" />
-      <section className="relative pt-4 pb-4 md:pt-8 md:pb-8">
-        <div className="container mx-auto px-2 md:px-6">
-          <div className="bg-[#EEDFCC] shadow-lg overflow-hidden rounded-2xl">
+      <section className="relative pt-0 pb-4 md:pt-8 md:pb-8">
+        <div className="container mx-auto px-0 md:px-6">
+          <div className="bg-[#EEDFCC] shadow-lg overflow-hidden">
             <div className="grid grid-cols-1 md:grid-cols-2 items-center">
               <motion.div 
                 initial={{ opacity: 0, x: -50 }}
@@ -29,7 +29,7 @@ export default function HeroSection() {
                   <Button 
                     asChild
                     size="lg"
-                    className="bg-[#ee4623] hover:bg-[#d63d1d] text-white transform hover:scale-105 transition-transform duration-300"
+                    className="bg-[#ee4623] hover:bg-[#d63d1d] text-white transform hover:scale-105 transition-transform duration-300 font-bold"
                   >
                     <Link href="https://www.byyu.com/">Shop Now</Link>
                   </Button>
