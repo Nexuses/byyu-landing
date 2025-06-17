@@ -9,7 +9,7 @@ export default function HeroSection() {
   return (
     <div className="relative">
       <div className="absolute top-0 left-0 right-0 h-[400px] bg-[#373743]" />
-      <section className="relative pt-0 pb-4 md:pt-8 md:pb-8">
+      <section className="relative pt-0 pb-4 md:pt-12 md:pb-8">
         <div className="container mx-auto px-0 md:px-6">
           <div className="bg-[#EEDFCC] shadow-lg overflow-hidden">
             <div className="grid grid-cols-1 md:grid-cols-2 items-center">
@@ -42,7 +42,7 @@ export default function HeroSection() {
                 className="relative h-[350px] md:h-[500px] w-full mb-[-15px]"
               >
                 <Image 
-                  src="https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/Corporate%20Gifts-1.png"
+                  src="https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/Gifts%20Banner.png"
                   alt="Corporate Gift Collection" 
                   fill 
                   className="object-contain transform hover:scale-105 transition-transform duration-300"

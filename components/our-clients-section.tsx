@@ -106,8 +106,13 @@ const OurClientsSection = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 items-center justify-items-center">
-              {secondSlideClients.map((client) => (
-                <div key={client.name} className="w-full max-w-[300px] h-32 relative">
+              {secondSlideClients.map((client, index) => (
+                <div 
+                  key={client.name} 
+                  className={`w-full max-w-[300px] h-32 relative ${
+                    index === 4 ? 'col-span-2 md:col-span-1 lg:col-span-1' : ''
+                  }`}
+                >
                   <Image
                     src={client.logo}
                     alt={`${client.name} logo`}
@@ -121,8 +126,13 @@ const OurClientsSection = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8 items-center justify-items-center">
-              {thirdSlideClients.map((client) => (
-                <div key={client.name} className="w-full max-w-[300px] h-32 relative">
+              {thirdSlideClients.map((client, index) => (
+                <div 
+                  key={client.name} 
+                  className={`w-full max-w-[300px] h-32 relative ${
+                    index === 2 ? 'col-span-2 md:col-span-1 lg:col-span-1' : ''
+                  }`}
+                >
                   <Image
                     src={client.logo}
                     alt={`${client.name} logo`}

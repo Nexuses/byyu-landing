@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 
 export default function GiftingEffortlessSection() {
@@ -35,13 +36,15 @@ export default function GiftingEffortlessSection() {
               <p className="text-lg text-gray-700">
                 Byyu can help you build stronger relationships through gifting. Get in touch to start planning your next corporate gift!
               </p>
-              <Button 
-                variant="default"
-                size="lg"
-                className="bg-[#F04A23] hover:bg-[#d83d18] text-white px-8 font-bold"
-              >
-                Contact Us
-              </Button>
+              <Link href="https://www.byyu.com/contact-us">
+                <Button 
+                  variant="default"
+                  size="lg"
+                  className="bg-[#F04A23] hover:bg-[#d83d18] text-white px-8 font-bold"
+                >
+                  Contact Us
+                </Button>
+              </Link>
             </div>
           </div>
         </div>

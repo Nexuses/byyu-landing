@@ -60,7 +60,7 @@ export default function CorporateGiftsCategories() {
             <div className={`rounded-2xl p-0 flex flex-row items-center h-full relative ${categories[0].bg}`}> {/* Tech Gifts */}
               <div className="flex-1 flex flex-col justify-center pl-8 pr-4 py-12">
                 <span className={`text-2xl md:text-2xl font-semibold mb-3 ${categories[0].text}`}>{categories[0].title}</span>
-                <Link href="https://www.byyu.com/" className="mt-2 px-6 py-2 rounded-full bg-[#ee4623] text-white font-semibold w-fit hover:bg-[#d13d1d] transition-colors duration-300">Shop now</Link>
+                <Link href="https://www.byyu.com/corporategifts" className="mt-2 px-6 py-2 rounded-full bg-[#ee4623] text-white font-semibold w-fit hover:bg-[#d13d1d] transition-colors duration-300">Shop now</Link>
               </div>
               <div className="flex items-center justify-center p-8">
                 <div className="bg-white rounded-2xl p-6 flex items-center justify-center">
@@ -73,7 +73,7 @@ export default function CorporateGiftsCategories() {
             <div className={`rounded-2xl p-0 flex flex-row items-center h-full relative ${categories[1].bg}`}> {/* Drinkware */}
               <div className="flex-1 flex flex-col justify-center pl-8 pr-4 py-12">
                 <span className={`text-2xl md:text-2xl font-semibold mb-3 ${categories[1].text}`}>{categories[1].title}</span>
-                <Link href="https://www.byyu.com/" className="mt-2 px-6 py-2 rounded-full bg-[#ee4623] text-white font-semibold w-fit hover:bg-[#d13d1d] transition-colors duration-300">Shop now</Link>
+                <Link href="https://www.byyu.com/corporategifts" className="mt-2 px-6 py-2 rounded-full bg-[#ee4623] text-white font-semibold w-fit hover:bg-[#d13d1d] transition-colors duration-300">Shop now</Link>
               </div>
               <div className="flex items-center justify-center p-8">
                 <div className="bg-white rounded-2xl p-6 flex items-center justify-center">
@@ -88,7 +88,7 @@ export default function CorporateGiftsCategories() {
             <div className={`rounded-2xl p-0 flex flex-row items-center h-full relative ${categories[2].bg}`}> {/* Gift Sets */}
               <div className="flex-1 flex flex-col justify-center pl-8 pr-4 py-12">
                 <span className={`text-2xl md:text-2xl font-semibold mb-3 ${categories[2].text}`}>{categories[2].title}</span>
-                <Link href="https://www.byyu.com/" className="mt-2 px-6 py-2 rounded-full bg-[#ee4623] text-white font-semibold w-fit hover:bg-[#d13d1d] transition-colors duration-300">Shop now</Link>
+                <Link href="https://www.byyu.com/corporategifts" className="mt-2 px-6 py-2 rounded-full bg-[#ee4623] text-white font-semibold w-fit hover:bg-[#d13d1d] transition-colors duration-300">Shop now</Link>
               </div>
               <div className="flex items-center justify-center p-8">
                 <div className="bg-white rounded-2xl p-6 flex items-center justify-center">
@@ -101,7 +101,7 @@ export default function CorporateGiftsCategories() {
             <div className={`rounded-2xl p-0 flex flex-row items-center h-full relative ${categories[3].bg}`}> {/* Stationery */}
               <div className="flex-1 flex flex-col justify-center pl-8 pr-4 py-12">
                 <span className={`text-2xl md:text-2xl font-semibold mb-3 ${categories[3].text}`}>{categories[3].title}</span>
-                <Link href="https://www.byyu.com/" className="mt-2 px-6 py-2 rounded-full bg-[#ee4623] text-white font-semibold w-fit hover:bg-[#d13d1d] transition-colors duration-300">Shop now</Link>
+                <Link href="https://www.byyu.com/corporategifts" className="mt-2 px-6 py-2 rounded-full bg-[#ee4623] text-white font-semibold w-fit hover:bg-[#d13d1d] transition-colors duration-300">Shop now</Link>
               </div>
               <div className="flex items-center justify-center p-8">
                 <div className="bg-white rounded-2xl p-6 flex items-center justify-center">
@@ -116,7 +116,7 @@ export default function CorporateGiftsCategories() {
             <div className={`rounded-2xl p-0 flex flex-row items-center h-full relative ${categories[4].bg}`}> {/* Sustainable Gifts */}
               <div className="flex-1 flex flex-col justify-center pl-8 pr-4 py-12">
                 <span className={`text-2xl md:text-2xl font-semibold mb-3 ${categories[4].text}`}>{categories[4].title}</span>
-                <Link href="https://www.byyu.com/" className="mt-2 px-6 py-2 rounded-full bg-[#ee4623] text-white font-semibold w-fit hover:bg-[#d13d1d] transition-colors duration-300">Shop now</Link>
+                <Link href="https://www.byyu.com/corporategifts" className="mt-2 px-6 py-2 rounded-full bg-[#ee4623] text-white font-semibold w-fit hover:bg-[#d13d1d] transition-colors duration-300">Shop now</Link>
               </div>
               <div className="flex items-center justify-center p-8">
                 <div className="bg-white rounded-2xl p-6 flex items-center justify-center">
