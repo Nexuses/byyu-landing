@@ -13,23 +13,35 @@ const testimonials = [
     title: 'Operations Executive',
     rating: 5,
   },
+  {
+    text: `The attention to detail and quality of products from byyu exceeded our expectations. Their team's dedication to understanding our brand needs resulted in perfect corporate gifts that truly represented our company values.`,
+    name: 'Sarah Chen',
+    title: 'Brand Manager',
+    rating: 5,
+  },
+  {
+    text: `Working with byyu transformed our corporate gifting strategy. Their innovative approach and premium product selection helped us strengthen our client relationships. The team's responsiveness and professionalism made the entire process seamless.`,
+    name: 'Michael Rodriguez',
+    title: 'Client Relations Director',
+    rating: 5,
+  },
 ]
 
 const Testimonials = () => {
   return (
-    <div className="w-full bg-[#F3E6D8] py-16">
-      <div className="container mx-auto px-4">
-        <h2 className="text-3xl md:text-4xl font-bold text-black text-center mb-2">
+    <div className="w-full bg-[#F3E6D8] py-24">
+      <div className="container mx-auto px-24">
+        <h2 className="text-3xl md:text-4xl font-bold text-black text-center mb-4">
           Inside byyu: Real Stories from Our Clients
         </h2>
-        <p className="text-center text-gray-700 mb-10 text-base md:text-lg">
+        <p className="text-center text-gray-700 mb-16 text-base md:text-lg">
           Here's what our clients have to say about byyu in their own words.
         </p>
-        <div className="flex flex-col md:flex-row gap-6 md:gap-8 items-center justify-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center justify-center">
           {testimonials.map((t, i) => (
             <div
               key={i}
-              className="bg-white rounded-xl shadow-md p-6 md:p-8 w-full md:w-[500px] flex flex-col justify-between min-h-[300px]"
+              className="bg-white rounded-xl shadow-md p-8 md:p-10 w-full flex flex-col justify-between min-h-[300px]"
             >
               <p className="text-gray-900 text-sm md:text-base mb-6">{t.text}</p>
               <div className="flex items-center gap-3 mt-auto">

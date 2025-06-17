@@ -50,73 +50,25 @@ export default function NavBar() {
                 priority
               />
             </Link>
-            {/* Mobile Icons - Right aligned */}
-            <div className="flex items-center space-x-4 md:hidden">
-              <Link href="/wishlist" className="flex flex-col items-center text-gray-700">
-                <Image
-                  src="https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/Frame-1.png"
-                  alt="Wishlist Icon"
-                  width={32}
-                  height={32}
-                  className="mb-1"
-                />
-              </Link>
-              <Link href="/signin" className="flex flex-col items-center text-gray-700">
-                <Image
-                  src="https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/Frame%20(1).png"
-                  alt="Sign In Icon"
-                  width={32}
-                  height={32}
-                  className="mb-1"
-                />
-              </Link>
-            </div>
           </div>
-
-          {/* Search Bar */}
-          <div className="w-full md:flex-1 md:max-w-2xl md:mx-8">
-            <div className="relative w-full">
-              <input
-                type="text"
-                className="w-full px-4 py-2 pr-28 rounded-full border-[0.5px] border-gray-300 outline-none ring-[0.5px] ring-gray-300 ring-offset-4 ring-offset-[#E8D2CD] focus:border-red-500 focus:ring-red-400"
-                placeholder="Search for gifts..."
-              />
-              <button className="absolute right-0 top-1/2 -translate-y-1/2 bg-[#F03613] text-white px-6 py-2 rounded-full">
-                Submit
-              </button>
-            </div>
-          </div>
-
-          {/* Right Menu - Desktop Only */}
-          <div className="hidden md:flex items-center space-x-6">
-            <Link href="/corporate-gifts" className="flex items-center">
-              <Image
-                src="https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/a-1.png"
-                alt="Corporate Gifts"
-                width={180}
-                height={60}
-              />
-            </Link>
-            <Link href="/wishlist" className="flex flex-col items-center text-gray-700">
-              <Image
-                src="https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/Frame-1.png"
-                alt="Wishlist Icon"
-                width={32}
-                height={32}
-                className="mb-1"
-              />
-              <span>Wishlist</span>
-            </Link>
-            <Link href="/signin" className="flex flex-col items-center text-gray-700">
-              <Image
-                src="https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/Frame%20(1).png"
-                alt="Sign In Icon"
-                width={32}
-                height={32}
-                className="mb-1"
-              />
-              <span>Sign In</span>
-            </Link>
+          {/* Download App Button - Now in its own container */}
+          <div className="hidden md:block">
+            <button className="flex items-center gap-2 bg-[#F03613] text-white px-4 py-2 rounded-full hover:bg-[#d32f0f] transition-colors">
+              <svg 
+                className="w-5 h-5" 
+                fill="none" 
+                stroke="currentColor" 
+                viewBox="0 0 24 24"
+              >
+                <path 
+                  strokeLinecap="round" 
+                  strokeLinejoin="round" 
+                  strokeWidth={2} 
+                  d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+                />
+              </svg>
+              <span>Download App</span>
+            </button>
           </div>
         </div>
       </div>

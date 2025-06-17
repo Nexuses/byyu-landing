@@ -43,10 +43,27 @@ const OurClientsSection = () => {
       name: 'dott',
       logo: 'https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/dott.png',
     },
+    {
+      name: 'Logix',
+      logo: 'https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/Logix.png',
+    },
+    {
+      name: 'Movado Group',
+      logo: 'https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/Movado-Group_Logo.png',
+    },
+    {
+      name: 'Target',
+      logo: 'https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/Target.png',
+    },
+    {
+      name: 'Power Lease',
+      logo: 'https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/Power%20Lease.png',
+    },
   ];
 
   const firstSlideClients = clients.slice(0, 5);
-  const secondSlideClients = clients.slice(5);
+  const secondSlideClients = clients.slice(5, 10);
+  const thirdSlideClients = clients.slice(10);
 
   return (
     <section className="w-full py-16 bg-white">
@@ -88,8 +105,23 @@ const OurClientsSection = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 items-center justify-items-center">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 items-center justify-items-center">
               {secondSlideClients.map((client) => (
+                <div key={client.name} className="w-full max-w-[300px] h-32 relative">
+                  <Image
+                    src={client.logo}
+                    alt={`${client.name} logo`}
+                    fill
+                    style={{ objectFit: 'contain' }}
+                    className="transition-opacity hover:opacity-80"
+                  />
+                </div>
+              ))}
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8 items-center justify-items-center">
+              {thirdSlideClients.map((client) => (
                 <div key={client.name} className="w-full max-w-[300px] h-32 relative">
                   <Image
                     src={client.logo}

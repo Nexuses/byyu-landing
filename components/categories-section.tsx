@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 
 const categories = [
   {
@@ -40,16 +41,18 @@ export default function CategoriesSection() {
         </motion.h2>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
           {categories.map((category, index) => (
-            <motion.div key={index} className="group cursor-pointer">
-              <div className="w-[215px] h-[190px] lg:w-[250px] lg:h-[220px] rounded-xl overflow-hidden bg-gray-100 mb-3">
-                <img
-                  src={category.image}
-                  alt={category.name}
-                  className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
-                />
-              </div>
-              <h3 className="text-center font-medium pb-3">{category.name}</h3>
-            </motion.div>
+            <Link href="https://www.byyu.com/product-list/hampers-77" key={index}>
+              <motion.div className="group cursor-pointer">
+                <div className="w-[215px] h-[190px] lg:w-[250px] lg:h-[220px] rounded-xl overflow-hidden bg-gray-100 mb-3">
+                  <img
+                    src={category.image}
+                    alt={category.name}
+                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                  />
+                </div>
+                <h3 className="text-center font-medium pb-3">{category.name}</h3>
+              </motion.div>
+            </Link>
           ))}
         </div>
       </div>

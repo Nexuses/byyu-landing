@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 
 export default function CorporateGiftsSection() {
   const categories = [
@@ -41,7 +42,12 @@ export default function CorporateGiftsSection() {
         </div>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 justify-items-center">
           {categories.map((category, index) => (
-            <div key={index} className="flex flex-col items-center" style={{width:'100%',maxWidth:'200px'}}>
+            <Link 
+              href="https://www.byyu.com/corporategifts" 
+              key={index} 
+              className="flex flex-col items-center hover:no-underline" 
+              style={{width:'100%',maxWidth:'200px'}}
+            >
               <div className="bg-white rounded-2xl shadow-md border border-gray-200 p-1 w-full transition-transform hover:scale-105">
                 <div className="relative w-full aspect-square rounded-xl overflow-hidden">
                   <Image
@@ -57,7 +63,7 @@ export default function CorporateGiftsSection() {
                   ? (<><span>Client & Partner</span><br /><span>Gifts</span></>)
                   : category.title}
               </h3>
-            </div>
+            </Link>
           ))}
         </div>
       </div>

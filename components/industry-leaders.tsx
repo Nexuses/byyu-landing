@@ -33,7 +33,7 @@ export default function IndustryLeaders() {
     <section className="w-full py-16 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-8">
-          <h2 className="text-2xl md:text-3xl font-bold mb-2">Trusted by Industry Leaders</h2>
+          <h2 className="text-2xl md:text-3xl font-bold mb-2">Flowers That Travel With Love – Across Every Platform</h2>
           <p className="text-gray-600 text-sm md:text-base max-w-2xl mx-auto">
             We're proud to partner with top aggregators and platforms that share our commitment to quality and excellence.
           </p>

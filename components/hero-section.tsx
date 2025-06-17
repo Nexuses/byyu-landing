@@ -42,7 +42,7 @@ export default function HeroSection() {
                 className="relative h-[350px] md:h-[500px] w-full mb-[-15px]"
               >
                 <Image 
-                  src="https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/e431cef0-37da-47e3-819f-dcfe30ad4a56%201%20(1)%20(1)%201.png"
+                  src="https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/Corporate%20Gifts-1.png"
                   alt="Corporate Gift Collection" 
                   fill 
                   className="object-contain transform hover:scale-105 transition-transform duration-300"
