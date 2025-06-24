@@ -19,8 +19,8 @@ export default function GiftingEffortlessSection() {
             <div className="relative w-full md:w-1/2 aspect-[16/10] order-2 md:order-1">
               <div className="relative w-full h-full">
                 <Image
-                  src="https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/Byyu%20-%20Valentines%20Day%20(1)%201.png"
-                  alt="Byyu App Interface"
+                  src="https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/Frame%201707481723.png"
+                  alt="byyu App Interface"
                   fill
                   className="object-contain mt-[32px] md:mt-[48px]"
                   priority
@@ -34,7 +34,7 @@ export default function GiftingEffortlessSection() {
                 Let&apos;s Make Gifting Effortless & Impactful!
               </h2>
               <p className="text-lg text-gray-700">
-                Byyu can help you build stronger relationships through gifting. Get in touch to start planning your next corporate gift!
+                byyu can help you build stronger relationships through gifting. Get in touch to start planning your next corporate gift!
               </p>
               <Link href="https://www.byyu.com/contact-us">
                 <Button 

@@ -19,7 +19,7 @@ export default function NavBar() {
             <Link href="/" className="flex-shrink-0">
               <Image
                 src="https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/Frame.png"
-                alt="Byyu Logo"
+                alt="byyu Logo"
                 width={120}
                 height={40}
                 priority

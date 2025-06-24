@@ -1,30 +1,36 @@
 import Image from "next/image"
+import Link from "next/link"
 
 const industryLeaders = [
   {
     name: "talabat",
     logo: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/talabat.png",
-    alt: "Talabat logo"
+    alt: "Talabat logo",
+    url: "https://www.talabat.com/uae"
   },
   {
     name: "deliveroo",
     logo: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/deliveroo.png",
-    alt: "Deliveroo logo"
+    alt: "Deliveroo logo",
+    url: "https://deliveroo.ae/"
   },
   {
     name: "flowwow",
     logo: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/Flowwow.png",
-    alt: "Flowwow logo"
+    alt: "Flowwow logo",
+    url: "https://flowwow.ae/"
   },
   {
     name: "noon food",
     logo: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/noonfood.png",
-    alt: "Noon Food logo"
+    alt: "Noon Food logo",
+    url: "https://food.noon.com/uae-en/"
   },
   {
     name: "nownow",
     logo: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/nownow.png",
-    alt: "NowNow logo"
+    alt: "NowNow logo",
+    url: "https://www.noonnownow.com/"
   }
 ]
 
@@ -41,7 +47,13 @@ export default function IndustryLeaders() {
         <div className="flex flex-wrap justify-center items-center gap-10 md:gap-16">
           {industryLeaders.map((leader) => (
             <div key={leader.name} className="flex items-center justify-center">
-              <Image src={leader.logo} alt={leader.alt} width={240} height={100} className="object-contain h-32 w-auto" />
+              {leader.url ? (
+                <Link href={leader.url} target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
+                  <Image src={leader.logo} alt={leader.alt} width={240} height={100} className="object-contain h-32 w-auto" />
+                </Link>
+              ) : (
+                <Image src={leader.logo} alt={leader.alt} width={240} height={100} className="object-contain h-32 w-auto" />
+              )}
             </div>
           ))}
         </div>

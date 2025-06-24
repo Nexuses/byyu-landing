@@ -8,7 +8,7 @@ import Footer from "@/components/Footer"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Byyu - Corporate Gifting Made Effortless",
+  title: "byyu - Corporate Gifting Made Effortless",
   description: "Personalized corporate gifts for every occasion",
   generator: 'v0.dev'
 }
