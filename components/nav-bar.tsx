@@ -29,11 +29,11 @@ export default function NavBar() {
           {/* Download App Button - Right aligned */}
           <div className="relative flex items-center">
             <button 
-              className="flex items-center gap-2 bg-[#F03613] text-white px-4 py-2 rounded-full hover:bg-[#d32f0f] transition-colors"
+              className="flex items-center gap-1 md:gap-2 bg-[#F03613] text-white px-2 py-1 md:px-4 md:py-2 rounded-full hover:bg-[#d32f0f] transition-colors text-sm md:text-base"
               onClick={() => setIsDownloadOpen(!isDownloadOpen)}
             >
               <svg 
-                className="w-5 h-5" 
+                className="w-4 h-4 md:w-5 md:h-5" 
                 fill="none" 
                 stroke="currentColor" 
                 viewBox="0 0 24 24"
