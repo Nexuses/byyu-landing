@@ -1,5 +1,15 @@
+"use client"
+
 import Image from "next/image"
 import Link from "next/link"
+import { useIsMobile } from "@/hooks/use-mobile"
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel"
 
 const industryLeaders = [
   {
@@ -35,6 +45,8 @@ const industryLeaders = [
 ]
 
 export default function IndustryLeaders() {
+  const isMobile = useIsMobile()
+
   return (
     <section className="w-full py-16 bg-white">
       <div className="container mx-auto px-4">
@@ -44,19 +56,50 @@ export default function IndustryLeaders() {
             We're proud to partner with top aggregators and platforms that share our commitment to quality and excellence.
           </p>
         </div>
-        <div className="flex flex-wrap justify-center items-center gap-10 md:gap-16">
-          {industryLeaders.map((leader) => (
-            <div key={leader.name} className="flex items-center justify-center">
-              {leader.url ? (
-                <Link href={leader.url} target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
+        
+        {isMobile ? (
+          <div className="relative">
+            <Carousel
+              opts={{
+                align: "start",
+                loop: true,
+              }}
+              className="w-full"
+            >
+              <CarouselContent className="-ml-2 md:-ml-4">
+                {industryLeaders.map((leader) => (
+                  <CarouselItem key={leader.name} className="pl-2 md:pl-4 basis-1/2 md:basis-1/3 lg:basis-1/4">
+                    <div className="flex items-center justify-center p-4">
+                      {leader.url ? (
+                        <Link href={leader.url} target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
+                          <Image src={leader.logo} alt={leader.alt} width={240} height={100} className="object-contain h-24 w-auto" />
+                        </Link>
+                      ) : (
+                        <Image src={leader.logo} alt={leader.alt} width={240} height={100} className="object-contain h-24 w-auto" />
+                      )}
+                    </div>
+                  </CarouselItem>
+                ))}
+              </CarouselContent>
+              <CarouselPrevious className="left-2" />
+              <CarouselNext className="right-2" />
+            </Carousel>
+          </div>
+        ) : (
+          <div className="flex flex-wrap justify-center items-center gap-10 md:gap-16">
+            {industryLeaders.map((leader) => (
+              <div key={leader.name} className="flex items-center justify-center">
+                {leader.url ? (
+                  <Link href={leader.url} target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
+                    <Image src={leader.logo} alt={leader.alt} width={240} height={100} className="object-contain h-32 w-auto" />
+                  </Link>
+                ) : (
                   <Image src={leader.logo} alt={leader.alt} width={240} height={100} className="object-contain h-32 w-auto" />
-                </Link>
-              ) : (
-                <Image src={leader.logo} alt={leader.alt} width={240} height={100} className="object-contain h-32 w-auto" />
-              )}
-            </div>
-          ))}
-        </div>
+                )}
+              </div>
+            ))}
+          </div>
+        )}
       </div>
     </section>
   )
