@@ -26,7 +26,7 @@ export default async function handler(
     // Send email
     await transporter.sendMail({
       from: process.env.SMTP_FROM,
-      to,
+      to: process.env.SMTP_TO,
       subject,
       text,
     })
