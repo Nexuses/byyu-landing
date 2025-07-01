@@ -8,7 +8,7 @@ import Footer from "@/components/Footer"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "byyu - Corporate Gifting Made Effortless",
+  title: "byyu - Corporate Gifting",
   description: "Personalized corporate gifts for every occasion",
   generator: 'v0.dev'
 }
@@ -20,6 +20,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <title>byyu - Corporate Gifting</title>
+        <link rel="icon" href="/byyu-favicon.png" type="image/png" />
+      </head>
       <body className={inter.className}>
         <ThemeProvider 
           attribute="class" 
