@@ -39,7 +39,7 @@ export default function HeroSection() {
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.6, delay: 0.2 }}
-                className="relative h-[350px] md:h-[500px] w-full mb-[-15px]"
+                className="relative h-[300px] md:h-[500px] w-full mb-[-15px]"
               >
                 <Image 
                   src="https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/medium-shot-happy-people-work%201%20(3).png"

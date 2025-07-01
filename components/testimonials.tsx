@@ -29,9 +29,9 @@ const testimonials = [
 
 const Testimonials = () => {
   return (
-    <div className="w-full bg-[#F3E6D8] py-24">
+    <div className="w-full bg-[#F3E6D8] py-16">
       <div className="container mx-auto px-4 md:px-24">
-        <h2 className="text-3xl md:text-4xl font-bold text-black text-center mb-4">
+        <h2 className="text-4xl font-bold text-black text-center mb-4">
           Inside byyu: Real Stories from Our Clients
         </h2>
         <p className="text-center text-gray-700 mb-16 text-base md:text-lg">

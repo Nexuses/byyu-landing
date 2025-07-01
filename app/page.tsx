@@ -6,6 +6,7 @@ import HeroSection from "@/components/hero-section"
 import FeaturesSection from "@/components/features-section"
 import CategoriesSection from "@/components/categories-section"
 import CorporateGiftsSection from "@/components/corporate-gifts-section"
+import CustomizeGiftsSection from "@/components/customize-gifts-section"
 import OurClientsSection from "@/components/our-clients-section"
 import Testimonials from "@/components/testimonials"
 import GiftingEffortlessSection from "@/components/gifting-effortless-section"
@@ -21,6 +22,7 @@ export default function Home() {
       <FeaturesSection />
       <CategoriesSection />
       <CorporateGiftsSection />
+      <CustomizeGiftsSection />
       <OurClientsSection />
       <Testimonials />
       <CorporateGiftsCategories />

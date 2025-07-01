@@ -55,7 +55,7 @@ const Forms = () => {
       <div className="max-w-6xl w-full flex flex-col md:flex-row gap-8 px-4">
         {/* Left Section */}
         <div className="flex-1 flex flex-col justify-center text-white">
-          <h1 className="text-2xl md:text-3xl font-bold mb-6">Elevate Your Brand with<br />Thoughtful Gifting</h1>
+          <h1 className="text-4xl font-bold mb-6">Elevate Your Brand with<br />Thoughtful Gifting</h1>
           <p className="mb-8 text-sm md:text-base">Looking to impress clients, partners, or teams? Contact byyu <br/> for premium corporate gifting solutions that blend quality, <br/> customization, and lasting impact.</p>
           <h1 className="font-semibold text-base md:text-lg">Let's create something unforgettable<br />reach out today.</h1>
         </div>

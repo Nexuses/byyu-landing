@@ -29,7 +29,7 @@ export default function NavBar() {
           {/* Download App Button - Right aligned */}
           <div className="relative flex items-center">
             <button 
-              className="flex items-center gap-1 md:gap-2 bg-[#F03613] text-white px-2 py-1 md:px-4 md:py-2 rounded-full hover:bg-[#d32f0f] transition-colors text-sm md:text-base"
+              className="flex items-center gap-1 md:gap-2 bg-[#F03613] text-white px-3 py-2 md:px-4 md:py-2 rounded-full hover:bg-[#d32f0f] transition-colors text-base md:text-base"
               onClick={() => setIsDownloadOpen(!isDownloadOpen)}
             >
               <svg 
@@ -49,7 +49,7 @@ export default function NavBar() {
             </button>
             {/* Download Dropdown */}
             {isDownloadOpen && (
-              <div className="absolute left-0 top-full mt-2 w-40 bg-white rounded-lg shadow-lg py-0.5 z-50">
+              <div className="absolute right-0 top-full mt-2 bg-white rounded-lg shadow-lg py-0.5 z-50 min-w-full">
                 <Link 
                   href="https://play.google.com/store/apps/details?id=com.byyu" 
                   target="_blank"

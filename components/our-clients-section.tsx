@@ -66,10 +66,10 @@ const OurClientsSection = () => {
   const thirdSlideClients = clients.slice(10);
 
   return (
-    <section className="w-full py-16 bg-white">
+    <section className="w-full py-8 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold mb-4">Our Clients</h2>
+          <h2 className="text-4xl font-bold mb-4">Our Clients</h2>
           <p className="text-gray-600">Served Various Happy Customers and Continuing</p>
         </div>
         

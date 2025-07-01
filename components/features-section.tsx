@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function FeaturesSection() {
   return (
-    <section className="py-16 bg-white">
+    <section className="py-8 bg-white">
       <div className="container mx-auto px-2">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-4xl font-bold text-[#212529] mb-4">
