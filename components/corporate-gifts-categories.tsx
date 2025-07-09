@@ -20,7 +20,7 @@ const categories = [
   },
   {
     title: "Gift Sets",
-    image: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/Gift%20Sets-1.png",
+    image: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/Frame%202147255538.png",
     bg: "bg-[#A2A7AA]",
     button: "bg-[#232323] text-white",
     text: "text-[#232323]",

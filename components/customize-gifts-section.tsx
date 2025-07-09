@@ -81,7 +81,7 @@ export default function CustomizeGiftsSection() {
   const customizationOptions = [
     {
       title: "Drinkwares",
-      image: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/Bottles%20&%20Mugs.png",
+      image: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/TM-043-gallery-08.png",
     },
     {
       title: "Tech Gifts",
@@ -89,19 +89,19 @@ export default function CustomizeGiftsSection() {
     },
     {
       title: "Stationery",
-      image: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/Office%20&%20Stationery.png",
+      image: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/8GB-Pen-USB-51-main-t%201.png",
     },
     {
       title: "Sustainable gifts",
-      image: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/Promotional%20Giveaways.png",
+      image: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/Notepad-with-Pen-RNP-01-02.png",
     },
     {
       title: "Gift Sets",
-      image: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/Corporate%20Gifting.png",
+      image: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/Frame%202147255537.png",
     },
     {
       title: "Apparels",
-      image: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/Caps%20&%20Hats.png",
+      image: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/Safety%20coveralls%20-%20Copy%201.png",
     },
   ]
 
