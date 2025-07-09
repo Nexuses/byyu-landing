@@ -80,27 +80,27 @@ export default function CustomizeGiftsSection() {
 
   const customizationOptions = [
     {
-      title: "Bottles & Mugs",
+      title: "Drinkwares",
       image: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/Bottles%20&%20Mugs.png",
     },
     {
-      title: "Travel & Tech",
+      title: "Tech Gifts",
       image: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/Travel%20&%20Tech.png",
     },
     {
-      title: "Office & Stationery",
+      title: "Stationery",
       image: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/Office%20&%20Stationery.png",
     },
     {
-      title: "Promotional Giveaways",
+      title: "Sustainable gifts",
       image: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/Promotional%20Giveaways.png",
     },
     {
-      title: "Corporate Gifting",
+      title: "Gift Sets",
       image: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/Corporate%20Gifting.png",
     },
     {
-      title: "Caps & Hats",
+      title: "Apparels",
       image: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/Caps%20&%20Hats.png",
     },
   ]
