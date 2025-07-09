@@ -23,6 +23,7 @@ export default function RootLayout({
       <head>
         <title>byyu - Corporate Gifting</title>
         <link rel="icon" href="/byyu-favicon.png" type="image/png" />
+        <meta name="google-site-verification" content="googlefc99b112cfdfcda1" />
       </head>
       <body className={inter.className}>
         <ThemeProvider 
