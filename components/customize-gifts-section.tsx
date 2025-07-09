@@ -92,7 +92,7 @@ export default function CustomizeGiftsSection() {
       image: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/8GB-Pen-USB-51-main-t%201.png",
     },
     {
-      title: "Sustainable gifts",
+      title: "Sustainable Gifts",
       image: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/Notepad-with-Pen-RNP-01-02.png",
     },
     {
