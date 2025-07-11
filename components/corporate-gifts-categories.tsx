@@ -49,9 +49,9 @@ export default function CorporateGiftsCategories() {
     <section className="w-full py-8 md:py-16 bg-white border-b-[96px] border-[#ee4623]">
       <div className="container mx-auto px-4 md:px-24">
         <div className="text-center mb-6 md:mb-8">
-          <h2 className="text-4xl font-bold mb-2">Our Corporate Gift Categories include</h2>
+          <h2 className="text-4xl font-bold mb-2">Beyond Gifting: A Statement of Appreciation</h2>
           <p className="text-gray-600 text-sm md:text-base max-w-2xl mx-auto">
-            Wide Variety of premium, customizable gifts, including exclusive local items and gourmet hampers.
+            From elegant gourmet hampers, our curated collection helps you celebrate partnerships with taste and purpose.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
