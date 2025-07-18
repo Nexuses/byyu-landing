@@ -11,7 +11,7 @@ const categories = [
     link: "/shop?category=tech-gifts"
   },
   {
-    title: "Drinkware",
+    title: "Drinkwares",
     image: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/Drinkware-1.png",
     bg: "bg-[#A2A7AA]",
     button: "bg-[#232323] text-white",

@@ -82,14 +82,17 @@ export default function CustomizeGiftsSection() {
     {
       title: "Drinkwares",
       image: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/TM-043-gallery-08.png",
+      link: "https://drive.google.com/file/d/1SFcUC_wFcKOCPxILDXfJcruMPKnVxcQv/view?usp=drive_link"
     },
     {
       title: "Tech Gifts",
       image: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/Travel%20&%20Tech.png",
+      link: "https://drive.google.com/file/d/17s2JQhZ_J6vVtu4KNN-4SACjT3yFjfql/view?usp=drive_link"
     },
     {
       title: "Stationery",
       image: "https://22527425.fs1.hubspotusercontent-na1.net/hubfs/22527425/Byyu%20landing%20page/8GB-Pen-USB-51-main-t%201.png",
+      link: "https://drive.google.com/file/d/1kQxGOC5mYIB_BaueFYSB-X7hdqiVbiFp/view?usp=drive_link"
     },
     {
       title: "Sustainable Gifts",
@@ -119,7 +122,7 @@ export default function CustomizeGiftsSection() {
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 justify-items-center">
           {customizationOptions.map((option, index) => (
             <Link 
-              href="https://www.byyu.com/customize" 
+              href={option.link || "https://www.byyu.com/customize"} 
               key={index} 
               className="flex flex-col items-center hover:no-underline" 
               style={{width:'100%',maxWidth:'200px'}}
